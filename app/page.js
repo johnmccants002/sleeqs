@@ -95,7 +95,7 @@ export default function Home() {
         className="h-screen bg-cover bg-center flex flex-col justify-center items-start px-4"
         style={{
           backgroundImage: `url(${bgmakeupimage.src})`,
-          backgroundSize: "cover",
+          backgroundSize: "max-content",
         }}
       >
         <h1
