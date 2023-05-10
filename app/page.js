@@ -52,7 +52,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           className="motion"
-          style={{ paddingLeft: 4, paddingRight: 4 }}
+          style={{ paddingLeft: 8, paddingRight: 8 }}
         >
           <h1
             className="text-6xl text-white font-bold"
