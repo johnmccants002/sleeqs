@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useRef } from "react";
 import ProductCard from "./components/ProductCard";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
@@ -21,6 +21,8 @@ import Footer from "./components/Footer";
 import bgmakeupimage from "./images/bgmakeupimage.png";
 
 export default function Home() {
+  const effortlessCollectionRef = useRef(null);
+
   return (
     <div style={{ width: "auto" }}>
       <Navbar />
@@ -75,12 +77,22 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
         >
-          <FiChevronDown className="text-white mt-20 text-5xl animate-bounce" />
+          <FiChevronDown
+            className="text-white mt-20 text-5xl animate-bounce"
+            onClick={() => {
+              const targetElement = document.querySelector(
+                "#effortless-collection"
+              );
+              targetElement.scrollIntoView({ behavior: "smooth" });
+            }}
+          />
         </motion.div>
       </div>
       <h2
         className="py-4 text-3xl font-bold text-white-800 mb-8 text-left pl-8 mt-8"
         style={{ fontFamily: "Cormorant, serif" }}
+        id="effortless-collection"
+        ref={effortlessCollectionRef}
       >
         Effortless Collection
       </h2>
