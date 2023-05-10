@@ -92,10 +92,13 @@ export default function Home() {
       </div>
 
       <div
-        className="h-screen bg-cover bg-center flex flex-col justify-center items-start px-4"
+        className="h-screen flex flex-col justify-center items-start px-4"
         style={{
           backgroundImage: `url(${bgmakeupimage.src})`,
-          backgroundSize: "max-content",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+          backgroundSize: "cover",
         }}
       >
         <h1
