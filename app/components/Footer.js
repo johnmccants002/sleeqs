@@ -8,7 +8,7 @@ const Footer = () => {
         <title>Sleeqs - Elegant and Beautiful Lashes</title>
         <meta
           name="description"
-          content="Welcome to Sleaqs, where elegance and beauty meet. Discover our collection of premium lashes and elevate your look today."
+          content="Welcome to Sleeqs, where elegance and beauty meet. Discover our collection of premium lashes and elevate your look today."
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
@@ -24,13 +24,13 @@ const Footer = () => {
                 className="text-2xl font-bold mb-4"
                 style={{ fontFamily: "Cormorant, serif", color: "white" }}
               >
-                Sleaqs
+                Sleeqs
               </h3>
               <p
                 className="text-gray-400 mb-4"
                 style={{ fontFamily: "Cormorant, serif", color: "white" }}
               >
-                Sleaqs is a lashes company that brands themselves on elegance
+                Sleeqs is a lashes company that brands themselves on elegance
                 and beauty. We sell high-quality lashes direct to consumers.
               </p>
               <ul className="flex space-x-4">
@@ -127,7 +127,7 @@ const Footer = () => {
                 className="text-gray-400 mb-4"
                 style={{ fontFamily: "Cormorant, serif", color: "white" }}
               >
-                Email: <a href="mailto:info@sleaqs.com">info@sleaqs.com</a>
+                Email: <a href="mailto:info@sleeqs.com">info@sleaqs.com</a>
               </p>
               <p
                 className="text-gray-400 mb-4"
@@ -146,7 +146,7 @@ const Footer = () => {
           <hr className="my-8" />
           <div className="text-center text-gray-400">
             <p style={{ fontFamily: "Cormorant, serif", color: "white" }}>
-              &copy; 2023 Sleaqs. All rights reserved.
+              &copy; 2023 Sleeqs. All rights reserved.
             </p>
           </div>
         </div>
