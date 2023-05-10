@@ -114,17 +114,23 @@ export default function Home() {
               padding-right: 4px;
               padding-left: 4px;
             }
+            .description {
+              font-size: 3rem;
+              line-height: 1.2;
+              padding-right: 4px;
+              padding-left: 4px;
+            }
           }
         `}</style>
 
         <p
-          className="text-xl font-medium text-black text-left mb-8 ml-12"
+          className="text-xl font-medium text-black text-center mb-8 ml-12 description"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Elevate your lashes with our Velour-Xtensions™!
         </p>
         <button
-          className="py-2 px-6 bg-black text-white uppercase tracking-wide font-medium rounded-md hover:bg-opacity-80 focus:outline-none ml-12"
+          className="py-2 px-6 bg-black text-white uppercase tracking-wide font-medium rounded-md hover:bg-opacity-80 focus:outline-none ml-12 description"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Buy Now
