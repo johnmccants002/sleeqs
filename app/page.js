@@ -92,20 +92,21 @@ export default function Home() {
       </div>
 
       <div
-        className="h-screen bg-cover bg-center flex flex-col justify-center items-start"
+        className="h-screen bg-cover bg-center flex flex-col justify-center items-center px-4"
         style={{
           backgroundImage: `url(${bgmakeupimage.src})`,
           backgroundSize: "cover",
         }}
       >
         <h1
-          className="text-6xl font-black text-black uppercase text-left bg-white bg-opacity-50 px-8 py-6 mb-4 ml-12"
+          className="text-6xl font-black text-black uppercase text-center bg-white bg-opacity-50 px-8 py-6 mb-4"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Sleeqs-Xtensions™
           <br />
           Exclusively at sleeqs.com
         </h1>
+
         <p
           className="text-xl font-medium text-black text-left mb-8 ml-12"
           style={{ fontFamily: "Cormorant, serif" }}
