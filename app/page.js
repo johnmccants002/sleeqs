@@ -22,7 +22,7 @@ import bgmakeupimage from "./images/bgmakeupimage.png";
 
 export default function Home() {
   return (
-    <>
+    <div style={{ width: "auto" }}>
       <Navbar />
       <Head>
         <title>Sleeqs - Elegant and Beautiful Lashes</title>
@@ -257,6 +257,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
