@@ -85,11 +85,12 @@ export default function Home() {
         Effortless Collection
       </h2>
 
-      <div className="py-12 grid grid-cols-3 gap-4 justify-items-center justify-content-center">
+      <div className="py-12 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-items-center justify-content-center">
         <ProductCard image={closeup1} />
         <ProductCard image={closeup2} />
         <ProductCard image={closeup3} />
       </div>
+
       <div
         className="h-screen bg-cover bg-center flex flex-col justify-center items-start"
         style={{
