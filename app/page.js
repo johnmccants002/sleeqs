@@ -92,7 +92,7 @@ export default function Home() {
       </div>
 
       <div
-        className="h-screen bg-cover bg-center flex flex-col justify-center items-center px-4"
+        className="h-screen bg-cover bg-center flex flex-col justify-center items-start px-4"
         style={{
           backgroundImage: `url(${bgmakeupimage.src})`,
           backgroundSize: "cover",
@@ -117,20 +117,18 @@ export default function Home() {
             .description {
               font-size: 3rem;
               line-height: 1.2;
-              padding-right: 4px;
-              padding-left: 4px;
             }
           }
         `}</style>
 
         <p
-          className="text-xl font-medium text-black text-center mb-8 ml-12 description"
+          className="text-xl font-medium text-black text-left mb-8 description"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Elevate your lashes with our Velour-Xtensions™!
         </p>
         <button
-          className="py-2 px-6 bg-black text-white uppercase tracking-wide font-medium rounded-md hover:bg-opacity-80 focus:outline-none ml-12 description"
+          className="bg-black text-white uppercase tracking-wide font-medium rounded-md hover:bg-opacity-80 focus:outline-none description py-6 mb-4 px-4"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Buy Now
