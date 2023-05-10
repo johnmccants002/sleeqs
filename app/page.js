@@ -114,10 +114,6 @@ export default function Home() {
               padding-right: 4px;
               padding-left: 4px;
             }
-            .description {
-              font-size: 3rem;
-              line-height: 1.2;
-            }
           }
         `}</style>
 
