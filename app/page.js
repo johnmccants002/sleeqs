@@ -106,6 +106,14 @@ export default function Home() {
           <br />
           Exclusively at sleeqs.com
         </h1>
+        <style jsx>{`
+          @media (max-width: 640px) {
+            h1 {
+              font-size: 3rem;
+              line-height: 1.2;
+            }
+          }
+        `}</style>
 
         <p
           className="text-xl font-medium text-black text-left mb-8 ml-12"
