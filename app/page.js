@@ -99,7 +99,7 @@ export default function Home() {
         }}
       >
         <h1
-          className="text-6xl font-black text-black uppercase text-left bg-white bg-opacity-50 px-8 py-6 mb-4 px-4"
+          className="text-6xl font-black text-black uppercase text-left bg-white bg-opacity-50 py-6 mb-4 px-4"
           style={{ fontFamily: "Cormorant, serif" }}
         >
           Sleeqs-Xtensions™
