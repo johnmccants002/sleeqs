@@ -30,6 +30,8 @@ export default function Home() {
           name="description"
           content="Welcome to Sleaqs, where elegance and beauty meet. Discover our collection of premium lashes and elevate your look today."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap"
