@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&display=swap");
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +18,25 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: "white";
+  background: "white";
 }
+
+a {
+  font-family: "Cormorant", serif;
+}
+
+/* .navlink {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+
+.navlink.show {
+  opacity: 1;
+  visibility: visible;
+} */
