@@ -17,10 +17,15 @@
   }
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: "white";
   background: "white";
   width: 100%;
+  overflow-x: hidden;
 }
 
 a {
