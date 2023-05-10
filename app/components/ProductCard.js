@@ -27,7 +27,7 @@ function ProductCard(props) {
         <div className="flex justify-between items-center mb-2">
           <p className="text-gray-500 text-sm">Natural: 8-12.5mm</p>
           <div className="flex items-center">
-            <FaStar className="text-pink-500 mr-1" />
+            <FaStar className="mr-1" color="tan" />
             <p className="text-gray-500 text-sm">(5)</p>
           </div>
         </div>
