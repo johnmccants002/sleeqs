@@ -92,7 +92,7 @@ export default function Home() {
       </div>
 
       <div
-        className="h-screen bg-cover bg-center flex flex-col justify-center items-start px-4"
+        className="h-screen bg-cover bg-center flex flex-col justify-center items-center px-4"
         style={{
           backgroundImage: `url(${bgmakeupimage.src})`,
           backgroundSize: "cover",
@@ -111,6 +111,8 @@ export default function Home() {
             h1 {
               font-size: 3rem;
               line-height: 1.2;
+              padding-right: 4px;
+              padding-left: 4px;
             }
           }
         `}</style>
