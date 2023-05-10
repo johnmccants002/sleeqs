@@ -127,7 +127,7 @@ const Footer = () => {
                 className="text-gray-400 mb-4"
                 style={{ fontFamily: "Cormorant, serif", color: "white" }}
               >
-                Email: <a href="mailto:info@sleeqs.com">info@sleaqs.com</a>
+                Email: <a href="mailto:info@sleeqs.com">info@sleeqs.com</a>
               </p>
               <p
                 className="text-gray-400 mb-4"
