@@ -51,7 +51,6 @@ export default function Home() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="motion"
           style={{ paddingLeft: 8, paddingRight: 8 }}
         >
           <h1
