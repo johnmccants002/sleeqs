@@ -51,6 +51,7 @@ export default function Home() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          className="motion"
         >
           <h1
             className="text-6xl text-white font-bold"
@@ -123,6 +124,10 @@ export default function Home() {
             h1 {
               font-size: 3rem;
               line-height: 1.2;
+              padding-right: 4px;
+              padding-left: 4px;
+            }
+            .motion {
               padding-right: 4px;
               padding-left: 4px;
             }
