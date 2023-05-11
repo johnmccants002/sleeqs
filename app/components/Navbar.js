@@ -103,7 +103,7 @@ function Navbar() {
         </div>
         {dropdown && (
           <div
-            className="absolute z-10 bg-black rounded-lg shadow-lg w-full py-12"
+            className="absolute z-10 bg-black shadow-lg w-full py-12"
             ref={dropdownRef}
           >
             <div className="flex">
