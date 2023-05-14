@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 
 function ProductCard(props) {
   const [hovered, setHovered] = useState(false);
-  const { image } = props;
+  const { image, title } = props;
 
   return (
     <div className="shadow-lg overflow-hidden">
@@ -21,7 +21,7 @@ function ProductCard(props) {
       </div>
       <div className="p-4">
         <div className="flex justify-between items-baseline mb-2">
-          <h3 className="text-lg font-bold">Product 3</h3>
+          <h3 className="text-lg font-bold">{title}</h3>
           <p className="text-gray-600">$29.99</p>
         </div>
         <div className="flex justify-between items-center mb-2">

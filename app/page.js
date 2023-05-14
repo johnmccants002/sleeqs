@@ -19,6 +19,7 @@ import makeupbg from "./images/makeupbg.png";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import bgmakeupimage from "./images/bgmakeupimage.png";
+import data from "../data";
 
 export default function Home() {
   const effortlessCollectionRef = useRef(null);
@@ -99,9 +100,9 @@ export default function Home() {
       </h2>
 
       <div className="py-12 grid grid-cols-1 sm:grid-cols-3 gap-4 justify-items-center justify-content-center">
-        <ProductCard image={closeup1} />
-        <ProductCard image={closeup2} />
-        <ProductCard image={closeup3} />
+        <ProductCard image={closeup1} title={"Minimalist"} />
+        <ProductCard image={closeup2} title={"Less is More"} />
+        <ProductCard image={closeup3} title={"Soulmates"} />
       </div>
 
       <div
